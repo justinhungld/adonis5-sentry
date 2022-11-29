@@ -6,7 +6,7 @@
     "mrm": "mrm --preset=@adonisjs/mrm-preset",
     "dev": "tsc --watch",
     "clean": "del build",
-    "compile": "npm run lint && npm run clean && tsc && npm run copy:files",
+    "compile": "npm run clean && tsc && npm run copy:files",
     "copy:files": "cpx 'templates/**' 'build/templates'",
     "build": "npm run compile",
     "test": "node japaFile.js",
