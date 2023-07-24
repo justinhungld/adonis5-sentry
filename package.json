@@ -44,7 +44,7 @@
   "types": "build/adonis-typings/index.d.ts",
   "typings": "build/adonis-typings/index.d.ts",
   "dependencies": {
-    "@sentry/node": "^7.45.0"
+    "@sentry/node": "^7.60.0"
   },
   "devDependencies": {
     "@adonisjs/mrm-preset": "^5.0.3",
